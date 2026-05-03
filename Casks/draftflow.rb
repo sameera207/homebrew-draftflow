@@ -1,6 +1,6 @@
 cask "draftflow" do
-  version "0.1.0"
-  sha256 "3064b0687d7e7077e37d64da8575d110bfc6ab6110e86ea725ebb1306c6a1ce3"
+  version "0.1.3"
+  sha256 "70c118d13590f58e059935bfb253ef39e909127b9e179bdf9097f429d5739964"
 
   url "https://github.com/sameera207/draftflow/releases/download/v#{version}/Draftflow-#{version}.dmg"
   name "Draftflow"

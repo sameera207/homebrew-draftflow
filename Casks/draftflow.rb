@@ -1,8 +1,8 @@
 cask "draftflow" do
-  version "0.1.18"
-  sha256 "548321e080c994325e256572b30e944dafd39fc6cb2f343b3687ae398d1201b7"
+  version "0.1.19"
+  sha256 "a0002499003786186299c1c3c266cf9d85f79c446980671be7e90792a2fc73f4"
 
-  url "https://github.com/sameera207/draftflow/releases/download/v0.1.18/Draftflow-0.1.18.dmg"
+  url "https://github.com/sameera207/draftflow/releases/download/v0.1.19/Draftflow-0.1.19.dmg"
   name "Draftflow"
   desc "Markdown editor for Claude Code workflows"
   homepage "https://draftflow.dev"

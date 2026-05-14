@@ -1,8 +1,8 @@
 cask "draftflow" do
-  version "0.1.21"
-  sha256 "e085981f7eeb4e47f5656b2533f0ffdd95488bb8fcb1ca39c0eea92b9ed994d0"
+  version "0.2.0"
+  sha256 "5d14b956ad9df9c63354282c1fe3a395d9115a940dda3f20ee7ec6e722131984"
 
-  url "https://github.com/sameera207/draftflow/releases/download/v0.1.21/Draftflow-0.1.21.dmg"
+  url "https://github.com/sameera207/draftflow/releases/download/v0.2.0/Draftflow-0.2.0.dmg"
   name "Draftflow"
   desc "Markdown editor for Claude Code workflows"
   homepage "https://draftflow.dev"
@@ -10,7 +10,7 @@ cask "draftflow" do
   app "Draftflow.app"
 
   postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Draftflow.app"]
+    system_command "/usr/bin/xattr", args: ["-cr", "\#{appdir}/Draftflow.app"]
   end
 
   zap trash: [
